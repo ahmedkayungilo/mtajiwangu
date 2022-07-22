@@ -1,0 +1,47 @@
+body{
+    background-color: #143e76;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Acme';
+    font-size: 64px;
+    color: whitesmoke;   
+}
+
+h2{
+    font-family: 'Open Sans';
+    font-size: 32px;
+    color: whitesmoke;
+    width: 70%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 22px;
+}
+
+button{
+    font-family: 'Blinker';
+    font-size: 32px;
+    font-weight: 700;
+    color: #143e76;
+    width: 10%;
+    height: 50px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+input{
+    height: 50px;
+    width: 45%;
+    margin: 15px;
+    text-align: center;
+    font-family: 'Open Sans';
+    border-radius: 15px;
+    border-style: none;
+}
