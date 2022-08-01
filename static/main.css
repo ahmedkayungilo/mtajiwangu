@@ -31,6 +31,7 @@ button{
     font-weight: 700;
     color: #143e76;
     width: 10%;
+    padding: 0;
     height: 50px;
     border-radius: 15px;
     border-style: none;
@@ -45,3 +46,4 @@ input{
     border-radius: 15px;
     border-style: none;
 }
+

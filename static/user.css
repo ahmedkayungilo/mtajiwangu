@@ -1,0 +1,76 @@
+h1{
+    font-family: 'Acme';
+    font-size: 48px;
+    color: whitesmoke;   
+}
+
+button{
+    font-family: 'Blinker';
+    font-size: 25px;
+    background-color: #143e76;
+    color: whitesmoke;
+    height: 50px;
+    border-radius: 15px;
+    border-style: none;
+    padding: 15%;
+}
+
+td{
+    padding: 20px;
+    font-family: 'Open Sans';
+    font-size: 1.2rem;
+}
+
+table{
+    width: 100%;
+}
+
+div .col-3{
+    background-color: #143e76;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.date{
+    color: black;
+    font-size: 40px;
+    font-family: 'Blinker';
+    align-content: flex-end;
+    text-align: right;
+}
+
+.title{
+    color: black;
+    font-family: 'Blinker';
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.row-red{
+    background-color: #ede9e9;
+}
+
+.row-blue{
+    
+    background-color: #b1ecff;
+   
+}
+
+.container{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.big-btn{
+    font-family: 'Blinker';
+    font-size: 32px;
+    font-weight: 700;
+    color: whitesmoke;
+    width: fit-content;
+    padding: 0 7%;
+    height: 70px;
+    border-radius: 15px;
+    border-style: none;
+    margin: 3%;
+    
+}

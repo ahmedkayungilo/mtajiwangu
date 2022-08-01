@@ -1,10 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
+{% extends 'base.html' %}
+
+{% block style %}
+    <link rel="stylesheet" href="{{url_for('static', filename='user.css')}}">
+{% endblock style %}
+
+{% block content %}
+
+<body style="background-color: whitesmoke;">
+    
+    <div class="container-fluid row" style="padding: 0px;">
+        <div class="col-3">
+
+            <div style="position: sticky; top:0;">
+                <h1>Mtaji Wangu</h1>
+
+        <button>Angalia Mauzo</button><br>
+        <button>Ongeza Mauzo</button><br>
+        <button>Angalia Mtaji</button><br>
+        <button>Ongeza Mtaji</button><br>
+
+            </div>
+            
+
+    </div>
+
+    {% block data%}
+        <div class="col" style="padding-top: 2%;">
+            <h1 class="date">27 Julai 2022</h1>
+
+            <div class="container">
+                <h2 class="title">Mauzo ya Leo</h2>
+
+            <table>
+                <tr class="row-red">
+                    <td>Mayai</td>
+                    <td>Trei 2</td>
+                    <td>18000</td>
+                    <td>Futa</td>
+                </tr>
+
+                <tr class="row-blue">
+                    <td>Mayai</td>
+                    <td>Trei 2</td>
+                    <td>18000</td>
+                    <td>Futa</td>
+                </tr>
+
+                <tr class="row-red">
+                    <td>Mayai</td>
+                    <td>Trei 2</td>
+                    <td>18000</td>
+                    <td>Futa</td>
+                </tr>
+
+                <tr class="row-blue">
+                    <td>Mayai</td>
+                    <td>Trei 2</td>
+                    <td>18000</td>
+                    <td>Futa</td>
+                </tr>
+
+                <tr class="row-blue">
+                    <td><b>JUMLA</b></td>
+                    <td> </td>
+                    <td>18000</td>
+                </tr>
+            </table>
+            </div>
+
+            <div class="container">
+                <h2 class="title">Manunuzi ya Mtaji</h2>
+
+            <table>
+                <tr class="row-red">
+                    <td>Mayai</td>
+                    <td>Trei 2</td>
+                    <td>18000</td>
+                    <td>Futa</td>
+                </tr>
+
+                <tr class="row-blue">
+                    <td>Mayai</td>
+                    <td>Trei 2</td>
+                    <td>18000</td>
+                    <td>Futa</td>
+                </tr>
+
+                <tr class="row-red">
+                    <td>Mayai</td>
+                    <td>Trei 2</td>
+                    <td>18000</td>
+                    <td>Futa</td>
+                </tr>
+
+                <tr class="row-blue">
+                    <td>Mayai</td>
+                    <td>Trei 2</td>
+                    <td>18000</td>
+                    <td>Futa</td>
+                </tr>
+            </table>
+
+            </div>
+        
+        
+        
+{% endblock data%}
+    </div>
+    </div>
+    
 </body>
-</html>
+{% endblock content%}
